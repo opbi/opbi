@@ -1,0 +1,3 @@
+files:
+  - source: README.md
+    translation: /i10n/%language%/%file_name%
