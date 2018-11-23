@@ -45,7 +45,7 @@ Here we assume a list of choices as below [in different layers]:
 
 ### Principles
 ```
-"工欲善其事者，必先利其器也。" -- 鲁班
+"Those who want to do their job well must first sharpen their tools." -- Ban Lu
 ```
 #### Code of Conduct
 
