@@ -61,6 +61,10 @@ Here we assume a list of choices as below [in different layers]:
 
 #### Component Lifecycle Standard
 
+<p align="center">
+  <img alt="ncm" src="https://raw.githubusercontent.com/opbi/graffle/master/component-lifecycle.png">
+</p>
+
 #### Service Lifecycle Standard
 
 #### Application Lifecycle Standard
