@@ -43,6 +43,10 @@ Here we assume a list of choices as below [in different layers]:
 
 #### Technology Architecture
 
+<p align="center">
+  <img alt="ncm" src="https://raw.githubusercontent.com/opbi/graffle/master/architecture-graph.png">
+</p>
+
 ### Principles
 ```
 "Those who want to do their job well must first sharpen their tools." -- Ban Lu
