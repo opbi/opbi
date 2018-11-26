@@ -19,14 +19,14 @@ It often comes down to choose tools and services, integrate them with automation
 
 #### Technology Choices
 
-OPBI will be sharing automation toolings based on the a set of common technology choices to form an integrated system. We aim to use best-of-kind services while also would like to provide more flexibilities to support different choices. As change of the fundemental technology choices would largely impact the toolchain, we would like to keep the solutions more future proof by clear layer separations and lock some of the choices initially.
+OPBI will be sharing automation tooling based on common technology choices to create a well-integrated solution. We aim to use best-of-kind services while also would like to provide more flexibilities to support different options. As change of the fundamental technology options would largely impact the toolchain, we would like to keep the solutions more future proof by clear separation of layers and lock some of the choices initially.
 
 Here we assume a list of choices as below [in different layers]:
-- *Cloud Infrastructure*: Google Cloud Platform (Google Kubernetes Engine) in Terraform
-- *Container Orchestration*: Kubernetes, Helm
-- *Continuous Integration*: GitHub, CircleCI, Coveralls, Snyk, etc.
+- *Cloud Infrastructure*: [Google Cloud Platform](https://cloud.google.com/), [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/), [Terraform](https://www.terraform.io/)
+- *Container Orchestration*: [Kubernetes](https://github.com/kubernetes/kubernetes), [Helm](https://github.com/helm/helm)
+- *Continuous Integration*: [GitHub](https://github.com/), [CircleCI](circleci.com), [Coveralls](http://coveralls.io), [Snyk](http://snyk.io), [Hashicorp/Vault](https://github.com/hashicorp/vault), etc.
 - *Build Toolchain*: Language specific best-practice build toolchain managed in centralised repos
-  - JavaScript: @opbi/ncm - package an updated best-practices build toolchain for multiple repos
+  - JavaScript: [@opbi/ncm](github.com/opbi/ncm) - package an updated best-practices build toolchain for multiple repos
 - *Services & Programming Languages*
   - JavaScript(Applications): React, React-Native, Node
   - Python(Data Services)
