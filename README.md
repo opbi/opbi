@@ -29,7 +29,7 @@ It often comes down to choose tools and services, integrate them with automation
 - Repeatable and Automatable
 
 
-### Opinions
+### Decisions
 
 #### Technology Choices
 
