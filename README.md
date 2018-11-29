@@ -20,16 +20,15 @@ It often comes down to choose tools and services, integrate them with automation
 ```
 "Those who want to do their job well must first sharpen their tools." -- Ban Lu
 ```
-#### Code of Conduct
 
-- Open-Source and Business Agnostic
-- Zero-Configuration By Default
-- While Always Configurable
-- Consistency over Variety
-- Repeatable and Automatable
+#### Open-Source and Business Agnostic
+#### Zero-Configuration By Default
+#### While Always Configurable
+#### Consistency over Variety
+#### Repeatable and Automatable
 
 
-### Decisions
+### Practices
 
 #### Technology Choices
 
@@ -81,3 +80,18 @@ Here we assume a list of choices as below [in different layers]:
 <p align="center">
   <img alt="app" src="https://raw.githubusercontent.com/opbi/graffle/master/app-lifecycle.png">
 </p>
+
+#### Glossary
+
+We choose to use a set of distinctive and friendly terms to describe high-level elements in organisation structure and technology architecture. These terms are chosen to avoid confusion with any lower-level elements in technology and organisation while ideally integrate them, e.g. `package` is used in Node.js to describe codebase unit. Those terms will essentially be used to form the schema of the technology resource management system.
+
+[Product] <- [User Journeys, Business Capabilities] <- [Team(Squad)]
+
+[System] <- [Component] -> [Team(Tribe)]
+
+[Organisation] <- [Team] <- [People]
+
+- System: the operating architecture constructed with components, which serves a set of user journeys or business capabilities managed by different business slice teams [Squads]
+- Component: a codebase unit that can be developed, ran or deployed or published or used to config infrastructure. It be in one of the types [infra, data store, app, service, job, package], and for each type there should be a template to define its quality and workflow standard, to model how it would be planned, developed, tested, deployed, shared, used, monitored, and administrated.
+- Team: can be a skill based community [Tribe] or a business capability slice group [Squad]. Each Tribe should have a common standard of distinctive responsibilities and technology choices, e.g. commonly can be product, data engineering, devops Tribes. Each Squad should have a set of key metrics to define their missions, a product Squad should take the first touch point of a particular set of user journeys to its very end, and how they would be formed would be aligned to the Product User Experience Architect.
+- User Journey: user-product interaction path to complete certain tasks in order to fulfil users' requirement from time to time as well as the organisation's mission. A selected set of journeys are arranged to form the product according to Product User Experience Architect based on priorities. There should be one single source of truth of those journeys to thread user research, design, user stories planning, development, test, product release and performance monitor, aligning to business missions.
