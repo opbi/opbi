@@ -43,11 +43,11 @@ Here we assume a list of choices as below [in different layers]:
 
 - *Cloud Infrastructure*: [Google Cloud Platform](https://cloud.google.com/), [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/), [Terraform](https://www.terraform.io/)
 - *Container Orchestration*: [Kubernetes](https://github.com/kubernetes/kubernetes), [Helm](https://github.com/helm/helm)
-- *Continuous Integration*: [GitHub](https://github.com/), [CircleCI](circleci.com), [Coveralls](http://coveralls.io), [Snyk](http://snyk.io), [Hashicorp/Vault](https://github.com/hashicorp/vault), etc.
+- *Continuous Integration*: [GitLab](https://gitlab.com), [GitHub](https://github.com/), [CircleCI](circleci.com), [Coveralls](http://coveralls.io), [Snyk](http://snyk.io), [Hashicorp/Vault](https://github.com/hashicorp/vault), etc.
 - *Build Toolchain*: Language specific best-practice build toolchain managed in centralised repos 
   - JavaScript: [@opbi/ncm](github.com/opbi/ncm) - package an updated best-practices build toolchain for multiple repos
 - *Services & Programming Languages* 
-  - JavaScript(Applications): React, React-Native, Node
+  - JavaScript(Applications): React, React-Native, Node, Fastify
   - Python(Data Services)
   - Golang(DevOps Services)
 - *Operation*: 
