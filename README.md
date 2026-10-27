@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="ncm" src="https://raw.githubusercontent.com/opbi/logo/master/opbi/opbi.svg?sanitize=true" width="160">
+  <img alt="ncm" src="https://raw.githubusercontent.com/opbi/opbi/master/logo/opbi/opbi.svg?sanitize=true" width="160">
 </p>
 
 <h3 align="center">OPBI - Open Business Institute</h3>
