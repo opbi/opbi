@@ -54,31 +54,31 @@ Here we assume a list of choices as below [in different layers]:
 #### Organisation Structure
 
 <p align="center">
-  <img alt="ncm" src="https://raw.githubusercontent.com/opbi/graffle/master/organisation-structure.png">
+  <img alt="ncm" src="https://raw.githubusercontent.com/opbi/opbi/master/graffle/organisation-structure.png">
 </p>
 
 #### Technology Architecture
 
 <p align="center">
-  <img alt="ncm" src="https://raw.githubusercontent.com/opbi/graffle/master/architecture-graph.png">
+  <img alt="ncm" src="https://raw.githubusercontent.com/opbi/opbi/master/graffle/architecture-graph.png">
 </p>
 
 #### Component Lifecycle Standard
 
 <p align="center">
-  <img alt="component" src="https://raw.githubusercontent.com/opbi/graffle/master/component-lifecycle.png">
+  <img alt="component" src="https://raw.githubusercontent.com/opbi/opbi/master/graffle/component-lifecycle.png">
 </p>
 
 #### Service Lifecycle Standard
 
 <p align="center">
-  <img alt="service" src="https://raw.githubusercontent.com/opbi/graffle/master/service-lifecycle.png">
+  <img alt="service" src="https://raw.githubusercontent.com/opbi/opbi/master/graffle/service-lifecycle.png">
 </p>
 
 #### Application Lifecycle Standard
 
 <p align="center">
-  <img alt="app" src="https://raw.githubusercontent.com/opbi/graffle/master/app-lifecycle.png">
+  <img alt="app" src="https://raw.githubusercontent.com/opbi/opbi/master/graffle/app-lifecycle.png">
 </p>
 
 #### Glossary
